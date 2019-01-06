@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+article {
+    text-align: left;
+    margin-top: 3%;
+    margin-left: 3%;
+    max-width: 900px;
+    background-color: #66a3ff;
+}
+
+body {
+    background-image: url("../images/sky.png");
+    background-repeat: repeat;
+    width: 100%;
+    max-width: 1024px;
+	margin: 0 auto;
+    background-color:#0099ff;
+    align-content: center;
+}
+
+caption {
+    font-weight: bold;
+    margin-left: 50%
+}
+
+div h4 {
+    font-weight: bold;
+    text-align: left;
+    padding-left: 2%;
+    padding-bottom: 0%;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+figcaption {
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    margin-top: 3%;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+header h3 {
+    text-align: center;
+    margin-top: 1%;
+    padding-bottom: 2%;
+
+}
+
+hr {
+    margin-top: 1%;
+}
+
+main {
+    align-content: center;
+    text-align: center;
+    margin-left: 3%;
+    padding-top: 10%;
+    padding-bottom: 6%;
+}
+
+
+p {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    padding-top: 0%;
+}
+
+ul {
+    border: 2px;
+    border-color: black;
+}
+
+#places {
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.capitol {
+    float: left;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.cessna {
+    float: right;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.c2 {
+    float: left;
+    padding-left: 3%;
+    padding-right: 3%; 
+    padding-bottom: 1%;
+}
+
+.blue {
+    float: left;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+}
+
+.nav {
+    background-image: url("../images/sky.png");
+    border: 2px solid black;
+    margin-top:0%;
+    margin-bottom: 2%;
+    padding-bottom: 3%;
+    width: 65%;
+    height: 12%;
+    position: fixed;
+    overflow: auto;
+}
+
+.navlist a {
+    color: #000;
+}
+
+.navlist li {
+    font-size: 18pt;
+    float: left;
+    padding-left: 6%;
+    padding-bottom: 0%;
+    margin-top: 1%;
+    list-style: none;
+}
+
+.video {
+    text-align: center;
+    padding-top: 1%
+}
+
+.row {
+    width:100%;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 30%;
+    padding: 1%;
+    margin-left: 2%;
+    align-content: center;
+  }
+  
+  /* Clear floats after image containers */
+ .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  } 
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  } 
